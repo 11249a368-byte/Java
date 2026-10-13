@@ -1,3 +1,4 @@
+11249A368
 Aim:To write a Java program that works as a simple calculator using a menu.
 Algorithm
 1. Start.
@@ -75,3 +76,21 @@ public class ArithmeticOperators {
         }
     }
 }
+Output:
+Enter the two numbers to perform operations
+Enter the first number: 20
+Enter the second number: 5
+
+Choose the operation you want to perform:
+1. ADDITION
+2. SUBTRACTION
+3. MULTIPLICATION
+4. DIVISION
+5. MODULUS
+6. EXIT
+1
+Result: 25
+
+Result
+
+Thus, the Java program to perform arithmetic operations using a menu and switch statement was executed successfully and the output was verified.
