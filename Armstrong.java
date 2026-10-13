@@ -1,4 +1,5 @@
- Aim:To write a Java program that checks whether a given number is an Armstrong number (a number equal to the sum of the cubes of its digits).
+11249A368
+Aim:To write a Java program that checks whether a given number is an Armstrong number (a number equal to the sum of the cubes of its digits).
  Algorithm
 1. Start
 2. Read a positive number `n` and copy it to `nu`.
@@ -33,3 +34,9 @@ System.out.print("Not an Armstrong Number");
 }
 }
 
+Ouput:
+Enter any Positive Number : 153
+Armstrong Number
+ Result
+
+Thus, the Java program to check whether a given number is an Armstrong number was executed successfully and the output was verified.
