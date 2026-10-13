@@ -1,3 +1,17 @@
+## Aim
+
+To write a Java program that finds the sum, largest number and smallest number in an array.
+
+## Algorithm
+
+1. Start.
+2. Create an array `a` with 10 numbers and set `sum = 0`, `min = a[0]` and `max = a[0]`.
+3. Run a loop from the first element to the last element of the array.
+4. In each step, update `max` if the element is greater, update `min` if the element is smaller, and add the element to `sum`.
+5. After the loop ends, display the sum, the largest number and the smallest number.
+6. Stop.
+    
+Program:
 import java.util.Scanner;
 public class LargestSmallest
 {
