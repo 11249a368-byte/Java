@@ -1,3 +1,16 @@
+## Aim
+
+To write a Java program that checks whether a given number is even or odd using a `switch` statement.
+
+## Algorithm
+
+1. Start.
+2. Read a number `n`.
+3. Find the remainder of `n` divided by 2 (`n % 2`).
+4. Using `switch`, if the remainder is 0, display "This number is even".
+5. If the remainder is 1, display "This number is odd".
+6. Stop.
+Program:
 import java.util.Scanner;
 
 class EvenOddSwitch {
