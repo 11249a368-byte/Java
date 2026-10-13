@@ -1,4 +1,5 @@
-## Aim
+11249A368
+Aim:
 
 To write a Java program that demonstrates common String operations using built-in String methods.
 
@@ -34,3 +35,21 @@ public class StringOperations {
         System.out.println("14. Trim: " + str3.trim());
     }
 }
+Output:
+1. Length: 10
+2. Character at index 1: e
+3. Uppercase: HELLO JAVA
+4. Lowercase: hello java
+5. Substring: Java
+6. Concatenation: Hello Java Programming
+7. Contains 'Java': true
+8. Index of 'J': 6
+9. Last index of 'a': 9
+10. Replace: Hello World
+11. Starts with 'Hello': true
+12. Ends with 'Java': true
+13. Equals: true
+14. Trim: Hello Java
+
+Result:
+Thus, the Java program to perform common String operations using built-in String methods was executed successfully and the output was verified.    
