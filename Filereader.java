@@ -1,3 +1,4 @@
+11249A368
 ## Aim
 
 To write a Java program that reads the contents of a text file character by character using `FileReader` and displays them on the screen.
@@ -31,3 +32,34 @@ System.out.println("Exception:"+e);
 }
 }
 }
+Output:
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+
+Result
+
+Thus, the Java program to read the contents of a text file character by character using FileReader was executed successfully and the output was verified.
