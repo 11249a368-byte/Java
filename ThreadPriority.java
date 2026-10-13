@@ -1,3 +1,17 @@
+## Aim
+
+To write a Java program that creates three threads (A, B and C) and sets different priorities for them using the `Thread` class.
+
+## Algorithm
+
+1. Start.
+2. Create three classes `A`, `B` and `C` that extend `Thread`, each with a `run()` method that prints its thread name and the numbers 1 to 4.
+3. In the `main` method, create objects of the three thread classes.
+4. Set the priorities: thread C to maximum, thread B to one more than A's priority, and thread A to minimum.
+5. Start the threads A, B and C using the `start()` method.
+6. Stop.
+
+Program:
 import java.io.*;
 class A extends Thread
 {
