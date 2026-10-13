@@ -1,3 +1,4 @@
+11249A368
 ## Aim
 
 To write a Java program that prints the Fibonacci series up to n terms using a method.
@@ -30,3 +31,8 @@ b = nextNumber;
 }
 }
 }
+Output:
+Enter the value of n: 8
+0 1 1 2 3 5 8 13 21
+Result:
+Thus, the Java program to print the Fibonacci series using a method was executed successfully and the output was verified.
