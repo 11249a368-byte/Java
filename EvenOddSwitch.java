@@ -1,3 +1,4 @@
+11249A368
 ## Aim
 
 To write a Java program that checks whether a given number is even or odd using a `switch` statement.
@@ -37,3 +38,7 @@ class EvenOddSwitch {
         }
     }
 }
+Output:
+Enter a number: 8
+This number is even
+Result:Thus, the Java program to check whether a given number is even or odd using a switch statement was executed successfully and the output was verified.
