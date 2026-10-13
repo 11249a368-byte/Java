@@ -1,3 +1,4 @@
+11249A368
 ## Aim
 
 To write a Java program that creates three threads (A, B and C) and sets different priorities for them using the `Thread` class.
@@ -57,3 +58,32 @@ System.out.println("start thread B"); threadB.start(); System.out.println("start
 System.out.println("end of main thread");
 }
 }
+
+Output:
+
+Thread output varies from run to run. A typical output of ThreadPriority.java:
+
+start thread A
+start thread B
+start thread C
+end of main thread
+thread C started
+thread c =1
+thread c =2
+thread c =3
+thread c =4
+exit from c
+Thread B started
+from thread B j=1
+from thread B j=2
+from thread B j=3
+from thread B j=4
+exit from B
+Thread A started
+from thread A i=1
+from thread A i=2
+from thread A i=3
+from thread A i=4
+exit from A
+Result:
+Thus, the Java program to create three threads and set different priorities for them was executed successfully and the output was verified.
