@@ -1,4 +1,5 @@
-## Aim
+11249A368
+Aim:
 
 To write a Java program that checks whether a given year is a leap year or not.
 
@@ -43,3 +44,8 @@ public class LeapYear {
         s.close();
     }
 }
+Output:
+Enter any year: 2024
+Year 2024 is a leap year
+Result:
+Thus, the Java program to check whether a given year is a leap year or not was executed successfully and the output was verified.   
