@@ -1,3 +1,20 @@
+
+## Aim
+
+To write a Java program that creates three threads (A, B and C) and demonstrates the thread methods `yield()`, `sleep()` and `break` (early exit from a thread).
+
+## Algorithm
+
+1. Start.
+2. Create three classes `A`, `B` and `C` that extend `Thread`, each with a `run()` method.
+3. In thread A, call `Thread.yield()` at the first step so other threads get a chance to run, then print 1 to 5.
+4. In thread B, print the numbers and exit the loop (`break`) when the value reaches 3. In thread C, pause for 1500 ms using `Thread.sleep()` after the first number.
+5. In the `main` method, create objects of A, B and C and start them using `start()`.
+6. Stop.
+
+The second program you pasted below it (`ThreadPriority`) is the same one from earlier, so its aim and algorithm remain as I gave before.
+
+Program:
 class A extends Thread {
     public void run() {
         for (int i = 1; i <= 5; i++) {
