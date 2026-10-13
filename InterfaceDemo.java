@@ -1,3 +1,4 @@
+11249A368
 ## Aim
 
 To write a Java program that demonstrates an interface by creating an `Animal` interface and implementing it in a `Dog` class.
@@ -28,3 +29,9 @@ public class InterfaceDemo {
         d.sound();
     }
 }
+Output:
+Dog Barks
+
+Result:
+
+Thus, the Java program to demonstrate an interface by implementing the Animal interface in the Dog class was executed successfully and the output was verified.
