@@ -1,4 +1,11 @@
-
+Aim:To write a Java program that works as a simple calculator using a menu.
+Algorithm
+1. Start.
+2. Read two numbers, `x` and `y`.
+3. Show the menu: Add, Subtract, Multiply, Divide, Modulus, Exit.
+4. Read the user's choice and perform that operation using `switch`.
+5. Display the result (for division, check that `y` is not 0).
+6. Repeat from step 2 until the user chooses Exit, then stop.
 import java.util.Scanner;
 
 public class ArithmeticOperators {
