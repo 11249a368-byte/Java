@@ -1,4 +1,5 @@
-## Aim
+11249A368
+Aim:
 
 To write a Java program that reads the names and marks of 6 students and displays the students who scored more than 60.
 
@@ -44,3 +45,19 @@ public class MarksAbvSixty
         }
     }
 }
+
+Output:
+Enter Name of Student and Marks of Subject 1: Arun 75
+Enter Name of Student and Marks of Subject 2: Bala 58
+Enter Name of Student and Marks of Subject 3: Charan 82
+Enter Name of Student and Marks of Subject 4: Divya 45
+Enter Name of Student and Marks of Subject 5: Esha 91
+Enter Name of Student and Marks of Subject 6: Farid 60
+
+Students scoring more than 60:
+Arun : 75
+Charan : 82
+Esha : 91
+
+Result:
+Thus, the Java program to read the names and marks of 6 students and display those who scored more than 60 was executed successfully and the output was verified.    
