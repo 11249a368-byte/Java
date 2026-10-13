@@ -117,3 +117,28 @@ System.out.println("start thread B"); threadB.start(); System.out.println("start
 System.out.println("end of main thread");
 }
 }
+
+Output:
+
+Thread output varies from run to run because the threads run concurrently. A typical output of Threadtest.java:
+
+Start thread A
+exit from main thread
+from thread B j=1
+from thread B j=2
+from thread B j=3
+exit from B
+thread C = 1
+from thread A i=1
+from thread A i=2
+from thread A i=3
+from thread A i=4
+from thread A i=5
+exit from A
+thread C = 2
+thread C = 3
+thread C = 4
+thread C = 5
+
+Result:
+Thus, the Java program to demonstrate the thread methods yield(), sleep() and break was executed successfully and the output was verified. 
