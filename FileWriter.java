@@ -1,5 +1,5 @@
-## Aim
-
+11249A368
+Aim:
 To write a Java program that writes the English capital letters A to Z into a text file using `FileWriter`.
 
 ## Algorithm
@@ -35,3 +35,6 @@ class FileWriter
         }
     }
 }
+Output:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Result:Thus, the Java program to write the English capital letters A to Z into a text file using FileWriter was executed successfully and the output was verified.
