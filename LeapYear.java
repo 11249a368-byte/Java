@@ -1,3 +1,16 @@
+## Aim
+
+To write a Java program that checks whether a given year is a leap year or not.
+
+## Algorithm
+
+1. Start.
+2. Read a year and set `flag = false`.
+3. If the year is divisible by 400, set `flag = true`.
+4. Else if it is divisible by 100, set `flag = false`; else if it is divisible by 4, set `flag = true`.
+5. If `flag` is true, display "Year is a leap year", otherwise display "Year is not a leap year".
+6. Stop.
+Program:
 import java.util.Scanner;
 
 public class LeapYear {
