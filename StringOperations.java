@@ -1,3 +1,17 @@
+## Aim
+
+To write a Java program that demonstrates common String operations using built-in String methods.
+
+## Algorithm
+
+1. Start.
+2. Create a string `str` with the value "Hello Java".
+3. Find its length, a character at an index, and convert it to uppercase and lowercase.
+4. Perform substring, concatenation, contains, indexOf, lastIndexOf and replace operations on it.
+5. Check startsWith, endsWith and equals with another string, and remove extra spaces from `str3` using `trim()`.
+6. Display the result of each operation and stop.
+
+Program:
 public class StringOperations {
     public static void main(String[] args) {
 
