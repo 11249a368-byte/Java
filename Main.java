@@ -1,4 +1,5 @@
-## Aim
+11249A368
+Aim
 
 To write a Java program that demonstrates the types of inheritance: single, multilevel, hierarchical, multiple (using interfaces) and hybrid.
 
@@ -158,3 +159,26 @@ public class Main {
         cs.playSports();
     }
 }
+Output:
+Single Inheritance:
+Animal eats
+Dog barks
+
+Multilevel Inheritance:
+Animal eats
+Dog barks
+Puppy plays
+
+Hierarchical Inheritance:
+Animal eats
+Cat meows
+
+Multiple Inheritance:
+Child gets property from Father
+Child gets property from Mother
+
+Hybrid Inheritance:
+Student studies
+College student plays sports
+Result:
+Thus, the Java program to demonstrate single, multilevel, hierarchical, multiple and hybrid inheritance was executed successfully and the output was verified.
