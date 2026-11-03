@@ -1,3 +1,14 @@
+/*11249A368
+
+Aim:To write a Java program to demonstrate CardLayout using buttons.
+Algorithm:
+1.Start the program.
+2.Create an Applet and implement ActionListener.
+3.Create a Panel and CardLayout.
+4.Add three buttons to the panel.
+5.Register ActionListener for each button.
+6.Use next() to display the next button when clicked.
+7.Stop the program.*/
 import java.io.*; import
 java.awt.*; import
 java.applet.*;
@@ -32,3 +43,7 @@ public void actionPerformed(ActionEvent e)
 buttonCardLayout.next(buttonPanel);
 }
 }
+/*Result
+Thus, the Java CardLayout program was successfully executed.*/
+
+
