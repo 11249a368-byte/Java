@@ -1,3 +1,25 @@
+/*11249a368
+Aim
+To write a Java program to demonstrate GridLayout using buttons.
+
+Algorithm
+Start the program.
+
+Import the required Java packages.
+
+Create an Applet class named gld.
+
+Set the layout to GridLayout(5,2).
+
+Create 10 buttons from A to J.
+
+Add all buttons to the Applet.
+
+Set the margins using Insets.
+
+Display the buttons in a grid.
+
+Stop the program.*/
 import java.awt.*;
 import java.io.*;
 import java.applet.Applet.*;
@@ -35,3 +57,8 @@ public Insets getInsets()
 {
 return new Insets(20,20,20,20);
 }}
+/* Result
+Thus, the Java program using GridLayout was successfully executed.
+
+
+ */
