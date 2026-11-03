@@ -1,3 +1,25 @@
+/*11249a368
+Aim
+To write a Java program to draw a human face using Graphics methods.
+
+Algorithm
+Start the program.
+
+Import the required Java packages.
+
+Create an Applet class named face.
+
+Use the paint() method to draw the face.
+
+Use drawOval() to draw the face, eyes and ears.
+
+Use fillOval() to draw the pupils.
+
+Use fillArc() to draw the nose and mouth.
+
+Display the face.
+
+Stop the program.*/
 import java.awt.*;
 import java.io.*;
 import java.applet.*;
@@ -23,3 +45,5 @@ public class face extends Applet
         g.drawOval(160, 92, 15, 30);
     }
 }
+/*Result
+Thus, the Java program to draw a human face using Graphics methods was successfully executed.*/
